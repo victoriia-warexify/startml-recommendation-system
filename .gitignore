@@ -1,0 +1,36 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and generated results
+*.csv
+*.parquet
+*.feather
+
+# Saved models
+models_*/
+*.pkl
+*.joblib
+
+# Generated feature caches
+cache/
+
+# Temporary files
+*.log
+*.tmp
